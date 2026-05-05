@@ -4609,64 +4609,63 @@ div.demo img {
   }
 }
 .tpbanner-2-title-2 {
-  font-size: 180px;
-  line-height: 110%;
+  font-size: 90px;
   color: var(--tp-common-white);
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tpbanner-2-title-2 {
-    font-size: 170px;
+    font-size: 85px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tpbanner-2-title-2 {
-    font-size: 125px;
+    font-size: 60px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tpbanner-2-title-2 {
-    font-size: 90px;
+    font-size: 45px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tpbanner-2-title-2 {
-    font-size: 115px;
+    font-size: 55px;
   }
 }
 @media (max-width: 767px) {
   .tpbanner-2-title-2 {
-    font-size: 50px;
+    font-size: 25px;
   }
 }
 .tpbanner-2-btn {
   font-family: var(--tp-ff-body);
   font-weight: 500;
-  font-size: 24px;
+  font-size: 12px;
   line-height: 1.5;
   color: #481E0B;
   background: #FFD056;
   border-radius: 65px;
   display: inline-block;
-  padding: 47px 65px;
+  padding: 20px 30px;
   transform: translateY(-35px);
   margin-right: -10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tpbanner-2-btn {
-    padding: 16px 46px;
+    padding: 8px 20px;
     transform: translateY(-16px);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tpbanner-2-btn {
-    padding: 30px 40px;
+    padding: 15px 20px;
     transform: translateY(-30px);
   }
 }
 @media (max-width: 767px) {
   .tpbanner-2-btn {
-    padding: 10px 26px;
+    padding: 5px 10px;
     transform: translateY(0px);
   }
 }
