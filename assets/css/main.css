@@ -138,12 +138,23 @@ li,
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Btitr';
+  src: url('../fonts/B-Titr-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+/* اعمال به h1 و h2 */
+h4, h2 {
+  font-family: 'Btitr';
+  font-weight: bold;
+}
 :root {
   /**
   @font family declaration
   */
   --tp-ff-body: 'DM Sans', sans-serif;
-  --tp-ff-heading: 'Virsace Bigiora', sans-serif;
+  --tp-ff-heading: 'Virsace Bigiora', sans-serif, 'Btitr';
   --tp-ff-p: 'DM Sans', sans-serif;
   --tp-ff-fontawesome: "Font Awesome 6 Pro";
   /**
@@ -197,9 +208,9 @@ a {
 }
 
 h1,
-h2,
+
 h3,
-h4,
+
 h5,
 h6 {
   font-family: var(--tp-ff-heading);
@@ -215,15 +226,15 @@ h6 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 24px;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 h4 {
