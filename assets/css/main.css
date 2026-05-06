@@ -4610,6 +4610,7 @@ div.demo img {
 }
 .tpbanner-2-title-2 {
   font-size: 90px;
+  line-height: 110%;
   color: var(--tp-common-white);
   margin-bottom: 30px;
 }
@@ -4648,6 +4649,7 @@ div.demo img {
   border-radius: 65px;
   display: inline-block;
   padding: 20px 30px;
+  margin-top: 10px;
   transform: translateY(-35px);
   margin-right: -10px;
 }
@@ -4665,7 +4667,7 @@ div.demo img {
 }
 @media (max-width: 767px) {
   .tpbanner-2-btn {
-    padding: 5px 10px;
+    padding: 5px 13px;
     transform: translateY(0px);
   }
 }
@@ -10170,8 +10172,8 @@ blockquote cite::before {
   }
 }
 .services-3-mask {
-  mask-image: url(../img/services/services-3/services-3-mask-1.svg);
-  -webkit-mask-image: url(../img/services/services-3/services-3-mask-1.svg);
+  mask-image: url(../img/services/tialandi.jpg);
+  -webkit-mask-image: url(../img/services/tialandi.jpg);
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   mask-size: cover;
@@ -10182,6 +10184,13 @@ blockquote cite::before {
 .services-3-mask img {
   width: 100%;
 }
+.services-3-mask:hover {
+  transform: scale(1.05); /* بزرگ نمایی خفیف */
+  filter: brightness(1.1) contrast(1.05); /* افزایش روشنایی و کنتراست */
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.3); /* سایه عمیق‌تر */
+  z-index: 2; /* بالا آمدن المان */
+}
+
 .services-3-shape span {
   position: absolute;
   display: inline-block;
